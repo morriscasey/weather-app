@@ -1,0 +1,75 @@
+.row{
+    margin: 6%;
+}
+
+body{
+    font-family: 'Delius Unicase', cursive;
+    /*color: #3C1700;*/
+    color: white;
+   
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.well{
+    display: block;
+    background-color: #babea3;
+    background-repeat:repeat;
+    background-size: contain;
+    border: 4px solid #FFF;
+}
+
+i.wi{
+    color: white;
+    font-size: 10em;
+}
+
+.col-xs-12#description{
+    padding-bottom: 20%;
+}
+
+hr#vertical{
+    width: 0px;
+   height: 100%;
+}
+
+#temp{
+    font-size: 6em;
+}
+
+#convert{
+    color: #e4f1fe;
+}
+
+/** Temperature changes **/
+#tempColor{
+    display:block;    
+}
+
+.hot{
+    background-color: #d91e18;
+}
+
+.warm{
+    background-color: #fd7e1a;
+}
+
+.mild{
+    background-color: #f5d76e;
+}
+
+.cool{
+   background-color: #99cc33; 
+}
+
+.cold{
+    background-color: #6bb9f0;
+}
+
+.freezing{
+    background-color: #3a539b;
+}
+
+.belowZero{
+    background-color: #9b59b6;
+}
