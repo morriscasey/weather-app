@@ -60,11 +60,13 @@ function retrieveData(lat, long){
             });
         });
     }
-    
+
+/** Converts current temperature from farhrenheit to celsius **/    
 function convertToCelsius(degree) {
     return Math.round((degree-32)*(5/9));
 }
 
+/** Based on the values of temperature the background color changes **/
 function changeTempColor(value){
     if(value >= 100)
         $('#tempColor').addClass("hot");
@@ -78,7 +80,7 @@ function changeTempColor(value){
         $('#tempColor').addClass("cold");
     else if(value >= 0 && value < 33)
         $('#tempColor').addClass("freezing");
-    else if (value < 0)
+    else
         $('#tempColor').addClass("belowZero");
 
 }
